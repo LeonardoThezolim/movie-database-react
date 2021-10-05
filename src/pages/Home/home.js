@@ -1,9 +1,14 @@
 import { Image } from '../../components/atoms/Image/image';
+import { Title } from '../../components/atoms/Typography/typography';
 
 export const Home = () => (
     <>
-        <h1>Teste 1</h1>
-        <Image width={150} src='https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'
-            alt='imagem de mulher chata e feia' />
+        <Image width={150} src='https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png' alt='imagem de uma mulher feia' />
+        <Title>
+            Leo
+        </Title>
+        <Title level={2}>
+            Lindão
+        </Title>
     </>
 );
