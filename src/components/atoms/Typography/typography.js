@@ -1,9 +1,6 @@
-import { Typography as T } from 'antd';
+import { Link } from "./link";
+import { Text } from "./text";
+import { Title } from "./title";
 
-const { Title: Ti } = T;
+export { Title, Text, Link };
 
-export const Title = ({ children, level, ellipsis }) => (
-    <Ti level={level} ellipsis={ellipsis}>
-        {children}
-    </Ti>
-)
