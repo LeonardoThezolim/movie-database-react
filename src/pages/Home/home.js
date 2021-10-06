@@ -1,5 +1,5 @@
 import { Image } from '../../components/atoms/Image/image';
-import { Title } from '../../components/atoms/Typography/typography';
+import { Link, Text, Title } from '../../components/atoms/Typography/typography';
 
 export const Home = () => (
     <>
@@ -10,5 +10,11 @@ export const Home = () => (
         <Title level={2}>
             Lindão
         </Title>
+        <Text>
+            Teste
+        </Text>
+        <Link href='https://google.com' target='_blank'>
+            Teste
+        </Link>
     </>
 );
