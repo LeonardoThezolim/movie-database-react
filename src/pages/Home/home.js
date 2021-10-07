@@ -1,20 +1,31 @@
-import { Image } from '../../components/atoms/Image/image';
-import { Link, Text, Title } from '../../components/atoms/Typography/typography';
+import Logo from '../../assets/images/logo_critiqui.png';
+import { Col, Row } from '../../components/atoms/Grid/grid';
+import { Image } from "../../components/atoms/Image/image";
+import { Header, Layout } from "../../components/atoms/Layout";
+import { Link } from '../../components/atoms/Typography/typography';
 
 export const Home = () => (
     <>
-        <Image width={150} src='https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png' alt='imagem de uma mulher feia' />
-        <Title>
-            Leo
-        </Title>
-        <Title level={2}>
-            Lindão
-        </Title>
-        <Text>
-            Teste
-        </Text>
-        <Link href='https://google.com' target='_blank'>
-            Teste
-        </Link>
+        <Layout>
+            <Header>
+                <Row gutter='24'>
+                    <Col>
+                        <Image src={Logo} width={200} />
+                    </Col>
+                    <Col>
+                        <Link href='/'>Filmes</Link>
+                    </Col>
+                    <Col>
+                        <Link href='/'>Séries</Link>
+                    </Col>
+                    <Col>
+                        <Link href='/'>Pessoas</Link>
+                    </Col>
+                    <Col>
+                        <Link href='/'>Mais</Link>
+                    </Col>
+                </Row>
+            </Header>
+        </Layout>
     </>
 );
