@@ -1,8 +1,9 @@
 import Logo from '../../assets/images/logo_critiqui.png';
 import { Col, Row } from '../../components/atoms/Grid/grid';
 import { Image } from "../../components/atoms/Image/image";
-import { Header, Layout } from "../../components/atoms/Layout";
+import { Layout } from "../../components/atoms/Layout";
 import { Link } from '../../components/atoms/Typography/typography';
+import { Header } from './styles';
 
 export const Home = () => (
     <>
