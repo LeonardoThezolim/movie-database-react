@@ -1,4 +1,4 @@
-import Logo from '../../assets/images/logo_critiqui.png';
+import Logo from '../../assets/images/logo.png';
 import { Col, Row } from '../../components/atoms/Grid/grid';
 import { Image } from "../../components/atoms/Image/image";
 import { Layout } from "../../components/atoms/Layout";
@@ -11,7 +11,7 @@ export const Home = () => (
             <Header>
                 <Row gutter='24'>
                     <Col>
-                        <Image src={Logo} width={200} />
+                        <Image src={Logo} width={150} />
                     </Col>
                     <Col>
                         <Link href='/'>Filmes</Link>
